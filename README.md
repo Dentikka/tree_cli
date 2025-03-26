@@ -20,15 +20,40 @@ tree /path/to/directory
 
 If no path is provided, the current directory (.) is used.
 
-## Example
+Ignoring Hidden Files and Directories
+To ignore hidden files and directories (those starting with .), use the --ignore-hidden option:
 
 ```bash
-$ tree
+tree /path/to/directory --ignore-hidden
+```
+
+## Examples
+
+Display Current Directory Structure
+```bash
+tree
+```
+
+Example output:
+```bash
+├── file1.txt
+└── dir1
+    ├── file2.txt
+    └── file3.txt
+```
+
+Display Directory Structure, Ignoring Hidden Files
+
+```bash
+tree --ignore-hidden
+```
+
+Example output (assuming .hidden_dir and .hidden_file exist):
+
+```bash
 .
 ├── file1.txt
-├── dir1
-│   ├── file2.txt
-│   └── file3.txt
-└── dir2
-    └── file4.txt
+└── dir1
+    ├── file2.txt
+    └── file3.txt
 ```
