@@ -15,7 +15,7 @@ pip install .
 To display the directory structure, run:
 
 ```bash
-tree-cli /path/to/directory
+tree /path/to/directory
 ```
 
 If no path is provided, the current directory (.) is used.
@@ -23,7 +23,7 @@ If no path is provided, the current directory (.) is used.
 ## Example
 
 ```bash
-$ tree-cli
+$ tree
 .
 ├── file1.txt
 ├── dir1
