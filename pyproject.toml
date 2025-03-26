@@ -7,7 +7,7 @@ name = "tree-cli"
 version = "1.0.0"
 description = "A lightweight Python implementation of the 'tree' command."
 authors = [
-    { name = "Your Name", email = "your.email@example.com" }
+    { name = "Denis Shveykin", email = "denis@shveykin.com" }
 ]
 readme = "README.md"
 license = { file = "LICENSE" }
